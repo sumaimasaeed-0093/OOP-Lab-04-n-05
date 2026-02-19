@@ -12,7 +12,7 @@ public:
     }
 
     void showProject() const {
-        cout << "Project: " << projectTitle << " (" << duration << " months)" << endl;
+        cout << "Project: " << projectTitle << " (" << duration << ")" << endl;
     }
 };
 
@@ -69,4 +69,5 @@ int main() {
     }
     return 0;
 }
+
 
