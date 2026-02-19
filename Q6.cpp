@@ -31,12 +31,12 @@ int main() {
         Player p2("Aaisha");
         Player p3("Zainab");
 
-        Player::showPlayers();   // (Inside the block)
+        Player::showPlayers();   // (block k andr)
     }
 
     cout << "After block ends:" << endl;
-    Player::showPlayers();       // (After destructor runs)
-
+    Player::showPlayers();       // (after destructor executed)
     return 0;
 }
+
 
