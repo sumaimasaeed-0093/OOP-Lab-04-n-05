@@ -11,7 +11,7 @@ public:
     }
 
     void showRate() const {
-        cout << "Interest Rate: " << interestRate << "%" << endl;
+        cout << "Interest Rate: " << interestRate << endl;
     }
 };
 
@@ -32,4 +32,5 @@ int main() {
     a3.showRate();
     return 0;
 }
+
 
