@@ -27,7 +27,7 @@ public:
     }
 
     void showCar() const {
-        cout << "Car Model: " << model << ", Engine Horsepower: " << engine.getHorsepower() << " HP" << endl;
+        cout << "Car Model: " << model << ", Engine Horsepower: " << engine.getHorsepower() << endl;
     }
 };
 
@@ -40,4 +40,5 @@ int main() {
     c2.showCar();
     return 0;
 }
+
 
