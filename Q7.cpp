@@ -17,7 +17,6 @@ public:
 
     void deposit(double amount) {
         balance += amount;
-        cout << amount << " deposited into " << accountHolder << "'s account.\n";
     }
 
     void showBalance() const {
@@ -28,7 +27,7 @@ public:
     }
 };
 
-string Account::bankName = "National Bank";
+string Account::bankName = "Meezan Bank";
 double Account::interestRate = 5.0;
 
 int main() {
@@ -48,4 +47,5 @@ int main() {
 
     return 0;
 }
+
 
