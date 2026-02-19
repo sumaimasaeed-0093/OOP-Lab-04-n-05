@@ -31,12 +31,11 @@ public:
     }
 
     ~Player() {
-        cout << ">> " << playerName << " has left the battle.\n";
+        cout << ">> " << playerName << " has left.\n";
         activePlayers--;
     }
 
     void showStatus() const {
-        cout << "\n=== Player Status ===\n";
         cout << "Name: " << playerName << endl;
         cout << "Health Level: " << health << endl;
         cout << "Equipped Weapon: " << weapon.weaponName << endl;
@@ -68,4 +67,5 @@ int main() {
 
     return 0;
 }
+
 
