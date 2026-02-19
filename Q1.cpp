@@ -11,7 +11,7 @@ public:
     }
 
     void showSpeed() const {
-        cout << "Speed of the car is: " << speed << " m/s" << endl;
+        cout << "Speed of car is: " << speed << " m/s" << endl;
     }
 };
 
@@ -22,4 +22,5 @@ int main() {
 
     return 0;
 }
+
 
