@@ -27,9 +27,11 @@ int main() {
     books[4].setData("The Kite Runner", 2100);
 
     for (int i = 0; i < 5; i++) {
+        cout << "\nBook " << i+1 << ":" << endl;
         books[i].showData();
     }
 
     return 0;
 }
+
 
